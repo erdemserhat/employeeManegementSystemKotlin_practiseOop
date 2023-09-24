@@ -8,7 +8,7 @@ class SoftwareEngineer(
     var project:Array<Project>,
     var collobrationAbility:Boolean,
     var usedLanguage: Language
-):Engineer(major,level,name,surname,id,address) {
+):Engineer(major,level,name,surname,id,address),Workable {
 
     override fun requestBonus() {
         println("overrided method")

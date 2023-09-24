@@ -19,4 +19,11 @@ open class Engineer(
     fun makePlan(){
         println("$name is making plan")
     }
+
+    /**
+     * you're no longer able to override this method in subclasses
+     */
+    final override fun work() {
+        super.work()
+    }
 }
